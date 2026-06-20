@@ -1,0 +1,8 @@
+@baseUrl=http://localhost:5215
+@CourseId=2779ee47-10b0-4bd7-8342-404006aa1392
+
+GET  {{baseUrl}}/API/Courses/AllCourses
+Accept: application/xml
+
+###
+GET  {{baseUrl}}/API/Courses/{{CourseId}}
